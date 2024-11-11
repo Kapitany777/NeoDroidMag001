@@ -11,9 +11,14 @@ android {
         minSdk = 27
         targetSdk = 34
         versionCode = 1
-        versionName = "1.0"
+        versionName = "V1.01 2024.11.11."
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildFeatures {
+        buildConfig = true
+        viewBinding = true
     }
 
     buildTypes {
@@ -28,6 +33,13 @@ android {
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
+    }
+    sourceSets {
+        getByName("main") {
+            assets {
+                srcDirs("src\\main\\assets", "src\\main\\assets")
+            }
+        }
     }
 }
 
