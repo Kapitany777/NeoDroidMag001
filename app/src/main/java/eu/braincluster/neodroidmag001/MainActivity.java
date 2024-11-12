@@ -1,5 +1,6 @@
 package eu.braincluster.neodroidmag001;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -31,6 +32,8 @@ public class MainActivity extends AppCompatActivity
 
     private void startTableOfContents(Category category)
     {
+        var intent = new Intent(this, TableOfContentsActivity.class);
 
+        startActivity(intent);
     }
 }
