@@ -4,6 +4,7 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import eu.braincluster.neodroidmag001.articles.Category;
 import eu.braincluster.neodroidmag001.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity
@@ -17,5 +18,19 @@ public class MainActivity extends AppCompatActivity
 
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+
+        initializeComponent();
+    }
+
+    private void initializeComponent()
+    {
+        binding.imageButtonCategory01.setOnClickListener(view -> {
+            startTableOfContents(Category.EDITORIAL);
+        });
+    }
+
+    private void startTableOfContents(Category category)
+    {
+
     }
 }
