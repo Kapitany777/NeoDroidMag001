@@ -6,4 +6,10 @@
     </style>
 
     <style name="Theme.NeoDroidMag001" parent="Base.Theme.NeoDroidMag001" />
+
+    <style name="TextViewHeader">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
 </resources>
