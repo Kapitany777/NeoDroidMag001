@@ -1,4 +1,4 @@
-package eu.braincluster.neodroidmag001;
+package eu.braincluster.neodroidmag001.interfaces;
 
 @FunctionalInterface
 public interface INavigable

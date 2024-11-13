@@ -7,5 +7,6 @@ public enum Category
 {
     EDITORIAL,
     SHORT_STORY,
-    POEM
+    POEM,
+    UNKNOWN
 }

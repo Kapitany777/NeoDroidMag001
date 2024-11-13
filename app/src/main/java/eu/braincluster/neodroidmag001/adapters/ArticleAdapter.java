@@ -9,7 +9,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
-import eu.braincluster.neodroidmag001.INavigable;
+import eu.braincluster.neodroidmag001.interfaces.INavigable;
 import eu.braincluster.neodroidmag001.articles.Article;
 import eu.braincluster.neodroidmag001.databinding.ListItemArticleBinding;
 

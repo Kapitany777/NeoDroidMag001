@@ -49,6 +49,8 @@ public class Article
                     case SHORT_STORY -> "Novellák";
 
                     case POEM -> "Versek";
+
+                    case UNKNOWN -> "Ismeretlen";
                 };
 
         return categoryName;

@@ -7,8 +7,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import eu.braincluster.neodroidmag001.articles.Category;
 import eu.braincluster.neodroidmag001.databinding.ActivityMainBinding;
+import eu.braincluster.neodroidmag001.singletons.GlobalData;
 
-public class MainActivity extends AppCompatActivity
+public class MainActivity extends BaseActivity
 {
     private ActivityMainBinding binding;
 
@@ -32,6 +33,9 @@ public class MainActivity extends AppCompatActivity
 
     private void startTableOfContents(Category category)
     {
+        globalData.reset();
+        globalData.setCategory(category);
+
         var intent = new Intent(this, TableOfContentsActivity.class);
 
         startActivity(intent);
