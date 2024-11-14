@@ -10,7 +10,7 @@ import eu.braincluster.neodroidmag001.singletons.GlobalData;
 public abstract class BaseActivity extends AppCompatActivity
 {
     // region Singletons
-    protected GlobalData globalData;
+    private GlobalData globalData;
     // endregion
 
     @Override
@@ -30,5 +30,10 @@ public abstract class BaseActivity extends AppCompatActivity
 
     public void initializeComponent()
     {
+    }
+
+    public GlobalData getGlobalData()
+    {
+        return globalData;
     }
 }

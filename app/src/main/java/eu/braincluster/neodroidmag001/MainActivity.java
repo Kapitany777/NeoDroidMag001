@@ -33,6 +33,8 @@ public class MainActivity extends BaseActivity
 
     private void startTableOfContents(Category category)
     {
+        var globalData = getGlobalData();
+
         globalData.reset();
         globalData.setCategory(category);
 

@@ -9,9 +9,10 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
-import eu.braincluster.neodroidmag001.interfaces.INavigable;
 import eu.braincluster.neodroidmag001.articles.Article;
 import eu.braincluster.neodroidmag001.databinding.ListItemArticleBinding;
+import eu.braincluster.neodroidmag001.interfaces.INavigable;
+import eu.braincluster.neodroidmag001.singletons.GlobalData;
 
 public class ArticleAdapter extends RecyclerView.Adapter<ArticleAdapter.ListItemHolder>
 {
@@ -70,6 +71,11 @@ public class ArticleAdapter extends RecyclerView.Adapter<ArticleAdapter.ListItem
         @Override
         public void onClick(View view)
         {
+            var globalData = GlobalData.getInstance();
+            var article = articleList.get(getAdapterPosition());
+
+            globalData.setArticle(article);
+
             activity.nextActivity();
         }
     }

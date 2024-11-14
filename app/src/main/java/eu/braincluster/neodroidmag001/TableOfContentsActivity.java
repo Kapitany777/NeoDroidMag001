@@ -9,6 +9,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 
 import eu.braincluster.neodroidmag001.adapters.ArticleAdapter;
 import eu.braincluster.neodroidmag001.articles.Articles;
+import eu.braincluster.neodroidmag001.articles.Category;
 import eu.braincluster.neodroidmag001.databinding.ActivityTableOfContentsBinding;
 import eu.braincluster.neodroidmag001.interfaces.INavigable;
 
@@ -33,6 +34,10 @@ public class TableOfContentsActivity extends BaseActivity implements INavigable
 
     private void displayInfo()
     {
+        var category = getGlobalData().getCategory();
+
+        binding.textViewCategoryName.setText(Category.getCategoryName(category));
+
         var articleList = Articles.getInstance().getEditorial();
 
         var adapter = new ArticleAdapter(this, articleList);
@@ -40,7 +45,6 @@ public class TableOfContentsActivity extends BaseActivity implements INavigable
         binding.recyclerViewArticles.setItemAnimator(new DefaultItemAnimator());
         binding.recyclerViewArticles.addItemDecoration(new DividerItemDecoration(TableOfContentsActivity.this, LinearLayoutManager.VERTICAL));
         binding.recyclerViewArticles.setAdapter(adapter);
-//        binding.recyclerViewArticles.getAdapter().setStateRestorationPolicy(RecyclerView.Adapter.StateRestorationPolicy.PREVENT_WHEN_EMPTY);
     }
 
     @Override

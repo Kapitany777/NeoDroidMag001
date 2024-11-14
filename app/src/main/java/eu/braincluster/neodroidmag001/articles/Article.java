@@ -38,24 +38,6 @@ public class Article
         return category;
     }
 
-    public String getCategoryName()
-    {
-        String categoryName =
-
-                switch (this.category)
-                {
-                    case EDITORIAL -> "Bevezető";
-
-                    case SHORT_STORY -> "Novellák";
-
-                    case POEM -> "Versek";
-
-                    case UNKNOWN -> "Ismeretlen";
-                };
-
-        return categoryName;
-    }
-
     public String getTitle()
     {
         return title;
