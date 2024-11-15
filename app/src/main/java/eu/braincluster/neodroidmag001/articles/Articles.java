@@ -33,7 +33,7 @@ public class Articles
     {
         this.articles = List.of(
                 new Article(Category.EDITORIAL, "Bevezető", "Kapitány", "editorial/kapitany_bevezeto.html"),
-                new Article(Category.EDITORIAL, "A programról", "Kapitány", "editorial/kapitany_bevezeto.html"),
+                new Article(Category.EDITORIAL, "A Holdraszállás rövid története", "Kapitány", "editorial/kapitany_holdraszallas.html"),
                 new Article(Category.EDITORIAL, "Készítők", "Kapitány", "editorial/kapitany_bevezeto.html"),
                 new Article(Category.EDITORIAL, "Bevezető", "Kapitány", "editorial/kapitany_bevezeto.html"),
                 new Article(Category.EDITORIAL, "A programról", "Kapitány", "editorial/kapitany_bevezeto.html"),

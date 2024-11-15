@@ -1,7 +1,7 @@
 @font-face
 {
     font-family: audiowide;
-    src: url(audiowide-regular.ttf);
+    src: url("../font/audiowide_regular.ttf");
 }
 
 body
@@ -9,4 +9,12 @@ body
     background-color: aliceblue;
     font-family: audiowide;
     font-size: 12pt;
+}
+
+p
+{
+    text-align: justify;
+    line-height: 150%;
+    padding-left: 10px;
+    padding-right: 10px;
 }
