@@ -26,7 +26,7 @@ public class MainActivity extends BaseActivity
     @Override
     public void initializeComponent()
     {
-        binding.imageButtonCategory01.setOnClickListener(view -> {
+        binding.buttonCategory01.setOnClickListener(view -> {
             startTableOfContents(Category.EDITORIAL);
         });
     }

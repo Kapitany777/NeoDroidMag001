@@ -46,117 +46,70 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:layout="@layout/fragment_header" />
 
-    <ImageButton
-        android:id="@+id/imageButtonCategory01"
+    <Button
+        android:id="@+id/buttonCategory01"
+        style="@style/ButtonMenu"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-        android:backgroundTintMode="screen"
-        android:scaleType="fitCenter"
+        android:text="Bevezető"
         app:layout_constraintBottom_toTopOf="@+id/guideline2"
         app:layout_constraintEnd_toStartOf="@+id/guideline4"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline1"
-        app:srcCompat="@drawable/baseline_article_24" />
-
-    <!--    <ImageButton-->
-    <!--        android:id="@+id/imageButtonCategory02"-->
-    <!--        android:layout_width="0dp"-->
-    <!--        android:layout_height="0dp"-->
-    <!--        android:layout_marginStart="8dp"-->
-    <!--        android:layout_marginTop="8dp"-->
-    <!--        android:layout_marginEnd="8dp"-->
-    <!--        android:layout_marginBottom="8dp"-->
-    <!--        android:backgroundTintMode="screen"-->
-    <!--        android:scaleType="fitCenter"-->
-    <!--        app:layout_constraintBottom_toTopOf="@+id/guideline2"-->
-    <!--        app:layout_constraintEnd_toEndOf="parent"-->
-    <!--        app:layout_constraintStart_toStartOf="@+id/guideline4"-->
-    <!--        app:layout_constraintTop_toTopOf="@+id/guideline1"-->
-    <!--        app:srcCompat="@drawable/baseline_article_24" />-->
+        app:layout_constraintTop_toTopOf="@+id/guideline1" />
 
     <Button
-        android:id="@+id/imageButtonCategory02"
-        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:id="@+id/buttonCategory02"
+        style="@style/ButtonMenu"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-        android:fontFamily="@font/audiowide_regular"
-        android:textStyle="bold"
         android:text="Novellák"
         app:layout_constraintBottom_toTopOf="@+id/guideline2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline4"
         app:layout_constraintTop_toTopOf="@+id/guideline1" />
 
-    <ImageButton
-        android:id="@+id/imageButtonCategory03"
+    <Button
+        android:id="@+id/buttonCategory03"
+        style="@style/ButtonMenu"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-        android:backgroundTintMode="screen"
-        android:scaleType="fitCenter"
+        android:text="Versek"
         app:layout_constraintBottom_toTopOf="@+id/guideline3"
         app:layout_constraintEnd_toStartOf="@+id/guideline4"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline2"
-        app:srcCompat="@drawable/baseline_article_24" />
+        app:layout_constraintTop_toTopOf="@+id/guideline2" />
 
-    <ImageButton
-        android:id="@+id/imageButtonCategory04"
+    <Button
+        android:id="@+id/buttonCategory04"
+        style="@style/ButtonMenu"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-        android:backgroundTintMode="screen"
-        android:scaleType="fitCenter"
+        android:text="Számtech"
         app:layout_constraintBottom_toTopOf="@+id/guideline3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline4"
-        app:layout_constraintTop_toTopOf="@+id/guideline2"
-        app:srcCompat="@drawable/baseline_article_24" />
+        app:layout_constraintTop_toTopOf="@+id/guideline2" />
 
-    <ImageButton
-        android:id="@+id/imageButtonCategory05"
+    <Button
+        android:id="@+id/buttonCategory05"
+        style="@style/ButtonMenu"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-        android:backgroundTintMode="screen"
-        android:scaleType="fitCenter"
+        android:text="Külvilág"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline4"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline3"
-        app:srcCompat="@drawable/baseline_article_24" />
+        app:layout_constraintTop_toTopOf="@+id/guideline3" />
 
-    <ImageButton
-        android:id="@+id/imageButtonCategory06"
+    <Button
+        android:id="@+id/buttonCategory06"
+        style="@style/ButtonMenu"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-        android:backgroundTintMode="screen"
-        android:scaleType="fitCenter"
+        android:text="Retró"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline4"
-        app:layout_constraintTop_toTopOf="@+id/guideline3"
-        app:srcCompat="@drawable/baseline_article_24" />
+        app:layout_constraintTop_toTopOf="@+id/guideline3" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
