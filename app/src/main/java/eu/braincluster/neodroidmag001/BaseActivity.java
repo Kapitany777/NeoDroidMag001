@@ -1,5 +1,6 @@
 package eu.braincluster.neodroidmag001;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.Nullable;
@@ -35,5 +36,26 @@ public abstract class BaseActivity extends AppCompatActivity
     public GlobalData getGlobalData()
     {
         return globalData;
+    }
+
+    protected <T extends BaseActivity> void startOperationActivity(Class<T> activityClass)
+    {
+        var intent = new Intent(this, activityClass);
+        startActivity(intent);
+    }
+
+    public void startMainActivity()
+    {
+        startOperationActivity(MainActivity.class);
+    }
+
+    public void startTableOfContentsActivity()
+    {
+        startOperationActivity(TableOfContentsActivity.class);
+    }
+
+    public void startArticleViewerActivity()
+    {
+        startOperationActivity(ArticleViewerActivity.class);
     }
 }

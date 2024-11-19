@@ -1,6 +1,5 @@
 package eu.braincluster.neodroidmag001;
 
-import android.content.Intent;
 import android.os.Bundle;
 
 import eu.braincluster.neodroidmag001.articles.Category;
@@ -38,8 +37,6 @@ public class MainActivity extends BaseActivity
         globalData.reset();
         globalData.setCategory(category);
 
-        var intent = new Intent(this, TableOfContentsActivity.class);
-
-        startActivity(intent);
+        startTableOfContentsActivity();
     }
 }

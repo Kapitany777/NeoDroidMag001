@@ -1,7 +1,6 @@
 package eu.braincluster.neodroidmag001;
 
 import android.os.Bundle;
-import android.webkit.WebSettings;
 
 import eu.braincluster.neodroidmag001.databinding.ActivityArticleViewerBinding;
 
@@ -33,6 +32,23 @@ public class ArticleViewerActivity extends BaseActivity
         settings.setDisplayZoomControls(false);
 
         // settings.setTextZoom(settings.getTextZoom() + 50);
+
+        binding.bottomNavigationViewArticle.setOnNavigationItemSelectedListener(item -> {
+            int itemId = item.getItemId();
+
+            if (itemId == R.id.page_main)
+            {
+                startMainActivity();
+                return true;
+            }
+            else if (itemId == R.id.page_table_of_contents)
+            {
+                finish();
+                return true;
+            }
+
+            return false;
+        });
     }
 
     private void displayArticle()

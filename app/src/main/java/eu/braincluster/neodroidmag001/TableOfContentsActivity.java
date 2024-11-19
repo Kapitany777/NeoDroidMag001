@@ -1,6 +1,5 @@
 package eu.braincluster.neodroidmag001;
 
-import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.recyclerview.widget.DefaultItemAnimator;
@@ -50,8 +49,6 @@ public class TableOfContentsActivity extends BaseActivity implements INavigable
     @Override
     public void nextActivity()
     {
-        var intent = new Intent(this, ArticleViewerActivity.class);
-
-        startActivity(intent);
+        startArticleViewerActivity();
     }
 }
