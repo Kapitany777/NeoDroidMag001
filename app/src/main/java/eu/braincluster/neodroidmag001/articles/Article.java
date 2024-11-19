@@ -3,7 +3,7 @@ package eu.braincluster.neodroidmag001.articles;
 /**
  * An article in the diskmag
  */
-public class Article
+public final class Article
 {
     /**
      * The category of the article

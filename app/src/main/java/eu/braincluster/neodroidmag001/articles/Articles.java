@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 /**
  * The articles of the diskmag
  */
-public class Articles
+public final class Articles
 {
     // region Singleton
     private static Articles instance;
