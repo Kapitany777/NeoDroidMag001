@@ -6,9 +6,20 @@
 
 body
 {
-    background-color: aliceblue;
+    background-color: #f0f8ff;
     font-family: audiowide;
     font-size: 12pt;
+}
+
+h1
+{
+    font-size: 18pt;
+}
+
+div.author
+{
+    color: #808080;
+    font-weight: bold;
 }
 
 p
