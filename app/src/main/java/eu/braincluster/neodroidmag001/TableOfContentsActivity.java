@@ -42,7 +42,7 @@ public class TableOfContentsActivity extends BaseActivity implements INavigable
         var adapter = new ArticleAdapter(this, articleList);
 
         binding.recyclerViewArticles.setItemAnimator(new DefaultItemAnimator());
-        binding.recyclerViewArticles.addItemDecoration(new DividerItemDecoration(TableOfContentsActivity.this, LinearLayoutManager.VERTICAL));
+        // binding.recyclerViewArticles.addItemDecoration(new DividerItemDecoration(TableOfContentsActivity.this, LinearLayoutManager.VERTICAL));
         binding.recyclerViewArticles.setAdapter(adapter);
     }
 
