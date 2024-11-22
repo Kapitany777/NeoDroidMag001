@@ -3,8 +3,6 @@ package eu.braincluster.neodroidmag001;
 import android.os.Bundle;
 
 import androidx.recyclerview.widget.DefaultItemAnimator;
-import androidx.recyclerview.widget.DividerItemDecoration;
-import androidx.recyclerview.widget.LinearLayoutManager;
 
 import eu.braincluster.neodroidmag001.adapters.ArticleAdapter;
 import eu.braincluster.neodroidmag001.articles.Articles;
@@ -35,7 +33,7 @@ public class TableOfContentsActivity extends BaseActivity implements INavigable
     {
         var category = getGlobalData().getCategory();
 
-        binding.textViewCategoryName.setText(Category.getCategoryName(category));
+        binding.textViewCategoryName.setText(Category.getCategoryName(this, category));
 
         var articleList = Articles.getInstance().getEditorial();
 

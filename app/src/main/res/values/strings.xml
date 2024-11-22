@@ -1,6 +1,14 @@
 <resources>
     <string name="app_name">NeoDroidMag001</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
     <string name="neodroid_title">NeoDroid 001</string>
+
+    <string name="category_editorial">Bevezető</string>
+    <string name="category_short_story">Novellák</string>
+    <string name="category_poem">Versek</string>
+    <string name="category_computing">Számtech</string>
+    <string name="category_world">Külvilág</string>
+    <string name="category_retro">Retró</string>
+    <string name="category_unknown">Ismeretlen</string>
+
 </resources>
