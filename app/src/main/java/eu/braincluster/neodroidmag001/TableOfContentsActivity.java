@@ -35,7 +35,7 @@ public class TableOfContentsActivity extends BaseActivity implements INavigable
 
         binding.textViewCategoryName.setText(Category.getCategoryName(this, category));
 
-        var articleList = Articles.getInstance().getEditorial();
+        var articleList = Articles.getInstance().getArticlesByCategory(category);
 
         var adapter = new ArticleAdapter(this, articleList);
 

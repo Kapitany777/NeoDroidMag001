@@ -32,27 +32,9 @@ public final class Articles
     private void createArticles()
     {
         this.articles = List.of(
-                new Article(Category.EDITORIAL, "Bevezető", "Kapitány", "editorial/kapitany_bevezeto.html"),
-                new Article(Category.EDITORIAL, "A Holdraszállás rövid története", "Kapitány", "editorial/kapitany_holdraszallas.html"),
-                new Article(Category.EDITORIAL, "Készítők", "Kapitány", "editorial/kapitany_bevezeto.html"),
-                new Article(Category.EDITORIAL, "Bevezető", "Kapitány", "editorial/kapitany_bevezeto.html"),
-                new Article(Category.EDITORIAL, "A programról", "Kapitány", "editorial/kapitany_bevezeto.html"),
-                new Article(Category.EDITORIAL, "Készítők", "Kapitány", "editorial/kapitany_bevezeto.html"),
-                new Article(Category.EDITORIAL, "Bevezető", "Kapitány", "editorial/kapitany_bevezeto.html"),
-                new Article(Category.EDITORIAL, "A programról", "Kapitány", "editorial/kapitany_bevezeto.html"),
-                new Article(Category.EDITORIAL, "Készítők", "Kapitány", "editorial/kapitany_bevezeto.html"),
-                new Article(Category.EDITORIAL, "Bevezető", "Kapitány", "editorial/kapitany_bevezeto.html"),
-                new Article(Category.EDITORIAL, "A programról", "Kapitány", "editorial/kapitany_bevezeto.html"),
-                new Article(Category.EDITORIAL, "Készítők", "Kapitány", "editorial/kapitany_bevezeto.html"),
-                new Article(Category.EDITORIAL, "Bevezető", "Kapitány", "editorial/kapitany_bevezeto.html"),
-                new Article(Category.EDITORIAL, "A programról", "Kapitány", "editorial/kapitany_bevezeto.html"),
-                new Article(Category.EDITORIAL, "Készítők", "Kapitány", "editorial/kapitany_bevezeto.html"),
-                new Article(Category.EDITORIAL, "Bevezető", "Kapitány", "editorial/kapitany_bevezeto.html"),
-                new Article(Category.EDITORIAL, "A programról", "Kapitány", "editorial/kapitany_bevezeto.html"),
-                new Article(Category.EDITORIAL, "Készítők", "Kapitány", "editorial/kapitany_bevezeto.html"),
-                new Article(Category.EDITORIAL, "Teszt 1.", "Kapitány", "editorial/kapitany_bevezeto.html"),
-                new Article(Category.EDITORIAL, "Teszt 2.", "Kapitány", "editorial/kapitany_bevezeto.html"),
-                new Article(Category.EDITORIAL, "Teszt 3.", "Kapitány", "editorial/kapitany_bevezeto.html")
+                new Article(Category.EDITORIAL, "Bevezető", "Kapitány", "editorial/kapitany_bevezeto.html")
+
+
         );
     }
 
@@ -66,10 +48,5 @@ public final class Articles
         return articles.stream()
                 .filter(a -> a.getCategory().equals(category))
                 .collect(Collectors.toList());
-    }
-
-    public List<Article> getEditorial()
-    {
-        return getArticlesByCategory(Category.EDITORIAL);
     }
 }

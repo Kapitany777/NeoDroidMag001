@@ -28,6 +28,26 @@ public class MainActivity extends BaseActivity
         binding.buttonCategory01.setOnClickListener(view -> {
             startTableOfContents(Category.EDITORIAL);
         });
+
+        binding.buttonCategory02.setOnClickListener(view -> {
+            startTableOfContents(Category.SHORT_STORY);
+        });
+
+        binding.buttonCategory03.setOnClickListener(view -> {
+            startTableOfContents(Category.POEM);
+        });
+
+        binding.buttonCategory04.setOnClickListener(view -> {
+            startTableOfContents(Category.COMPUTING);
+        });
+
+        binding.buttonCategory05.setOnClickListener(view -> {
+            startTableOfContents(Category.WORLD);
+        });
+
+        binding.buttonCategory06.setOnClickListener(view -> {
+            startTableOfContents(Category.RETRO);
+        });
     }
 
     private void startTableOfContents(Category category)
