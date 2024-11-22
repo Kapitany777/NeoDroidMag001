@@ -32,9 +32,14 @@ public final class Articles
     private void createArticles()
     {
         this.articles = List.of(
-                new Article(Category.EDITORIAL, "Bevezető", "Kapitány", "editorial/kapitany_bevezeto.html")
+                new Article(Category.EDITORIAL, "Bevezető", "Kapitány", "editorial/kapitany_bevezeto.html"),
 
+                new Article(Category.SHORT_STORY, "Szakítás", "Jimmy Cartwright", "shortstories/jimmy_szakitas.html"),
 
+                new Article(Category.COMPUTING, "A mai modern világban", "Homoergaster", "computing/homoergaster_mai_modern_vilagban.html"),
+
+                new Article(Category.RETRO, "Matt Barton: Dungeons and Desktops", "Kapitány", "retro/kapitany_dungeons_and_desktops.html"),
+                new Article(Category.RETRO, "Matt Barton: Dungeons and Desktops 2.", "Kapitány", "retro/kapitany_dungeons_and_desktops.html")
         );
     }
 
