@@ -29,6 +29,22 @@ public class TableOfContentsActivity extends BaseActivity implements INavigable
         setContentView(binding.getRoot());
     }
 
+    @Override
+    public void initializeComponent()
+    {
+        binding.bottomNavigationViewArticle.setOnItemSelectedListener(item -> {
+            int itemId = item.getItemId();
+
+            if (itemId == R.id.page_main)
+            {
+                startMainActivity();
+                return true;
+            }
+
+            return false;
+        });
+    }
+
     private void displayInfo()
     {
         var category = getGlobalData().getCategory();

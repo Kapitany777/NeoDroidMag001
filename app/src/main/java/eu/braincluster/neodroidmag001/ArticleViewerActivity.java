@@ -1,6 +1,11 @@
 package eu.braincluster.neodroidmag001;
 
 import android.os.Bundle;
+import android.view.MenuItem;
+
+import androidx.annotation.NonNull;
+
+import com.google.android.material.navigation.NavigationBarView;
 
 import eu.braincluster.neodroidmag001.databinding.ActivityArticleViewerBinding;
 
@@ -33,7 +38,7 @@ public class ArticleViewerActivity extends BaseActivity
 
         // settings.setTextZoom(settings.getTextZoom() + 50);
 
-        binding.bottomNavigationViewArticle.setOnNavigationItemSelectedListener(item -> {
+        binding.bottomNavigationViewArticle.setOnItemSelectedListener(item -> {
             int itemId = item.getItemId();
 
             if (itemId == R.id.page_main)
