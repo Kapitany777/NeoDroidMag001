@@ -33,6 +33,7 @@ public final class Articles
     {
         this.articles = List.of(
                 new Article(Category.EDITORIAL, "Bevezető", "Kapitány", "editorial/kapitany_bevezeto.html"),
+                new Article(Category.EDITORIAL, "Készítők", "Szerkesztőség", "editorial/szerk_keszitok.html"),
 
                 new Article(Category.SHORT_STORY, "Szakítás", "Jimmy Cartwright", "shortstories/jimmy_szakitas.html"),
 
