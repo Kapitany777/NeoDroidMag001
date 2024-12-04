@@ -22,8 +22,10 @@
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavigationViewArticle"
+        style="@style/BottomNavigationView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        app:itemActiveIndicatorStyle="@style/App.Custom.Indicator"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

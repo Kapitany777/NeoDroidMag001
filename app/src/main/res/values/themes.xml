@@ -21,6 +21,14 @@
         <item name="android:textStyle">bold</item>
     </style>
 
+    <style name="BottomNavigationView">
+        <item name="android:background">#f0f8ff</item>
+    </style>
+
+    <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">#f0f8ff</item>
+    </style>
+
     <style name="TextViewHeader">
         <item name="android:gravity">center</item>
         <item name="android:textColor">#0058b7</item>
@@ -43,7 +51,7 @@
         <item name="android:textColor">#ffffff</item>
         <item name="android:fontFamily">@font/audiowide_regular</item>
         <item name="android:textSize">18sp</item>
-<!--        <item name="android:textStyle">bold</item>-->
+        <!--        <item name="android:textStyle">bold</item>-->
     </style>
 
     <style name="TextViewListAuthor">

@@ -32,7 +32,7 @@ public class TableOfContentsActivity extends BaseActivity implements INavigable
     @Override
     public void initializeComponent()
     {
-        binding.bottomNavigationViewArticle.setOnItemSelectedListener(item -> {
+        binding.bottomNavigationViewToc.setOnItemSelectedListener(item -> {
             int itemId = item.getItemId();
 
             if (itemId == R.id.page_main)
