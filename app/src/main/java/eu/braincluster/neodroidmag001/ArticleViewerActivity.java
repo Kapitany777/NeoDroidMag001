@@ -1,11 +1,6 @@
 package eu.braincluster.neodroidmag001;
 
 import android.os.Bundle;
-import android.view.MenuItem;
-
-import androidx.annotation.NonNull;
-
-import com.google.android.material.navigation.NavigationBarView;
 
 import eu.braincluster.neodroidmag001.databinding.ActivityArticleViewerBinding;
 

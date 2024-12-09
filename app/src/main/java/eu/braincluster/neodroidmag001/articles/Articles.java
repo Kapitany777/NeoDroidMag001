@@ -32,8 +32,10 @@ public final class Articles
     private void createArticles()
     {
         this.articles = List.of(
-                new Article(Category.EDITORIAL, "Bevezető", "Kapitány", "editorial/kapitany_bevezeto.html"),
-                new Article(Category.EDITORIAL, "Készítők", "Szerkesztőség", "editorial/szerk_keszitok.html"),
+                new Article(Category.EDITORIAL, "Bevezető Kapitánytól", "Kapitány", "editorial/kapitany_bevezeto.html"),
+                new Article(Category.EDITORIAL, "Az újság nevéről", "Szerkesztőség", "editorial/szerk_ujsag_neverol.html"),
+                new Article(Category.EDITORIAL, "E szám készítői", "Szerkesztőség", "editorial/szerk_keszitok.html"),
+                new Article(Category.EDITORIAL, "Eddigi munkatársaink", "Szerkesztőség", "editorial/szerk_eddigi_keszitok.html"),
 
                 new Article(Category.SHORT_STORY, "Szakítás", "Jimmy Cartwright", "shortstories/jimmy_szakitas.html"),
 
