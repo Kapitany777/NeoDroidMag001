@@ -33,7 +33,7 @@ public class TableOfContentsActivity extends BaseActivity implements INavigable
     public void initializeComponent()
     {
         binding.bottomNavigationViewToc.setOnItemSelectedListener(item -> {
-            int itemId = item.getItemId();
+            final int itemId = item.getItemId();
 
             if (itemId == R.id.page_main)
             {
@@ -47,13 +47,13 @@ public class TableOfContentsActivity extends BaseActivity implements INavigable
 
     private void displayInfo()
     {
-        var category = getGlobalData().getCategory();
+        final var category = getGlobalData().getCategory();
 
         binding.textViewCategoryName.setText(Category.getCategoryName(this, category));
 
-        var articleList = Articles.getInstance().getArticlesByCategory(category);
+        final var articleList = Articles.getInstance().getArticlesByCategory(category);
 
-        var adapter = new ArticleAdapter(this, articleList);
+        final var adapter = new ArticleAdapter(this, articleList);
 
         binding.recyclerViewArticles.setItemAnimator(new DefaultItemAnimator());
         // binding.recyclerViewArticles.addItemDecoration(new DividerItemDecoration(TableOfContentsActivity.this, LinearLayoutManager.VERTICAL));

@@ -40,7 +40,7 @@ public abstract class BaseActivity extends AppCompatActivity
 
     protected <T extends BaseActivity> void startOperationActivity(Class<T> activityClass)
     {
-        var intent = new Intent(this, activityClass);
+        final var intent = new Intent(this, activityClass);
         startActivity(intent);
     }
 

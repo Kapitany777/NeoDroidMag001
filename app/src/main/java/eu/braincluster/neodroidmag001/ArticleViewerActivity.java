@@ -39,7 +39,7 @@ public class ArticleViewerActivity extends BaseActivity
         // settings.setTextZoom(settings.getTextZoom() + 50);
 
         binding.bottomNavigationViewArticle.setOnItemSelectedListener(item -> {
-            int itemId = item.getItemId();
+            final int itemId = item.getItemId();
 
             if (itemId == R.id.page_main)
             {
@@ -58,7 +58,7 @@ public class ArticleViewerActivity extends BaseActivity
 
     private void displayArticle()
     {
-        var article = getGlobalData().getArticle();
+        final var article = getGlobalData().getArticle();
 
         binding.webViewArticle.loadUrl("file:///android_asset/" + article.getPath());
     }

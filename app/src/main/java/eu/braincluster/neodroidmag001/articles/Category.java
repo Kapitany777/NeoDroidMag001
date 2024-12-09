@@ -19,7 +19,7 @@ public enum Category
 
     public static String getCategoryName(Context context, Category category)
     {
-        String categoryName =
+        final String categoryName =
 
                 switch (category)
                 {

@@ -29,7 +29,7 @@ public class ArticleAdapter extends RecyclerView.Adapter<ArticleAdapter.ListItem
     @Override
     public ArticleAdapter.ListItemHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType)
     {
-        var binding = ListItemArticleBinding.inflate(LayoutInflater.from(parent.getContext()), parent, false);
+        final var binding = ListItemArticleBinding.inflate(LayoutInflater.from(parent.getContext()), parent, false);
 
         return new ArticleAdapter.ListItemHolder(binding);
     }
@@ -37,7 +37,7 @@ public class ArticleAdapter extends RecyclerView.Adapter<ArticleAdapter.ListItem
     @Override
     public void onBindViewHolder(@NonNull ArticleAdapter.ListItemHolder holder, int position)
     {
-        var article = articleList.get(position);
+        final var article = articleList.get(position);
 
         holder.bind(article);
     }
@@ -71,8 +71,8 @@ public class ArticleAdapter extends RecyclerView.Adapter<ArticleAdapter.ListItem
         @Override
         public void onClick(View view)
         {
-            var globalData = GlobalData.getInstance();
-            var article = articleList.get(getAdapterPosition());
+            final var globalData = GlobalData.getInstance();
+            final var article = articleList.get(getAdapterPosition());
 
             globalData.setArticle(article);
 
