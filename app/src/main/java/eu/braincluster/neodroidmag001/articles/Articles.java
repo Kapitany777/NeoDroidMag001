@@ -39,10 +39,16 @@ public final class Articles
 
                 new Article(Category.SHORT_STORY, "Szakítás", "Jimmy Cartwright", "shortstories/jimmy_szakitas.html"),
 
+                new Article(Category.POEM, "Locsolóvers", "Homoergaster", "poems/homoergaster_locsolovers.html"),
+                new Article(Category.POEM, "...fekete mágia (szellemidézés)", "Homoergaster", "poems/homoergaster_magia.html"),
+
                 new Article(Category.COMPUTING, "A mai modern világban", "Homoergaster", "computing/homoergaster_mai_modern_vilagban.html"),
 
-                new Article(Category.RETRO, "Matt Barton: Dungeons and Desktops", "Kapitány", "retro/kapitany_dungeons_and_desktops.html"),
-                new Article(Category.RETRO, "Matt Barton: Dungeons and Desktops 2.", "Kapitány", "retro/kapitany_dungeons_and_desktops.html")
+                new Article(Category.WORLD, "UFO?!", "Homoergaster", "world/homoergaster_ufo.html"),
+
+                new Article(Category.RETRO, "Gépvásárlás - térben és időben", "Kapitány", "retro/kapitany_gepvasarlas.html"),
+                new Article(Category.RETRO, "A szentesi lemezújságokról", "Kapitány", "retro/kapitany_szentesi_lemezujsagok.html"),
+                new Article(Category.RETRO, "Matt Barton: Dungeons and Desktops", "Kapitány", "retro/kapitany_dungeons_and_desktops.html")
         );
     }
 

@@ -29,3 +29,8 @@ p
     padding-left: 10px;
     padding-right: 10px;
 }
+
+p.poem
+{
+    text-align: center;
+}
