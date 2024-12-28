@@ -38,7 +38,7 @@ public class ArticleViewerActivity extends BaseActivity
 
             if (itemId == R.id.page_main)
             {
-                startMainActivity();
+                startMainMenuActivity();
                 return true;
             }
             else if (itemId == R.id.page_table_of_contents)

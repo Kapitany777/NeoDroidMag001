@@ -2,8 +2,14 @@ package eu.braincluster.neodroidmag001;
 
 import android.os.Bundle;
 
-import eu.braincluster.neodroidmag001.articles.Category;
+import androidx.activity.EdgeToEdge;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.graphics.Insets;
+import androidx.core.view.ViewCompat;
+import androidx.core.view.WindowInsetsCompat;
+
 import eu.braincluster.neodroidmag001.databinding.ActivityMainBinding;
+import eu.braincluster.neodroidmag001.databinding.ActivityMainMenuBinding;
 
 public class MainActivity extends BaseActivity
 {
@@ -25,26 +31,12 @@ public class MainActivity extends BaseActivity
     @Override
     public void initializeComponent()
     {
-        binding.buttonCategory01.setOnClickListener(view -> startTableOfContents(Category.EDITORIAL));
+        binding.main.setOnClickListener(view -> {
+            startMainMenuActivity();
+        });
 
-        binding.buttonCategory02.setOnClickListener(view -> startTableOfContents(Category.SHORT_STORY));
-
-        binding.buttonCategory03.setOnClickListener(view -> startTableOfContents(Category.POEM));
-
-        binding.buttonCategory04.setOnClickListener(view -> startTableOfContents(Category.COMPUTING));
-
-        binding.buttonCategory05.setOnClickListener(view -> startTableOfContents(Category.WORLD));
-
-        binding.buttonCategory06.setOnClickListener(view -> startTableOfContents(Category.RETRO));
-    }
-
-    private void startTableOfContents(Category category)
-    {
-        var globalData = getGlobalData();
-
-        globalData.reset();
-        globalData.setCategory(category);
-
-        startTableOfContentsActivity();
+        binding.buttonStart.setOnClickListener(view -> {
+            startMainMenuActivity();
+        });
     }
 }

@@ -49,6 +49,11 @@ public abstract class BaseActivity extends AppCompatActivity
         startOperationActivity(MainActivity.class);
     }
 
+    public void startMainMenuActivity()
+    {
+        startOperationActivity(MainMenuActivity.class);
+    }
+
     public void startTableOfContentsActivity()
     {
         startOperationActivity(TableOfContentsActivity.class);

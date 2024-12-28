@@ -37,7 +37,7 @@ public class TableOfContentsActivity extends BaseActivity implements INavigable
 
             if (itemId == R.id.page_main)
             {
-                startMainActivity();
+                startMainMenuActivity();
                 return true;
             }
 
