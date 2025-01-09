@@ -48,7 +48,8 @@ public final class Articles
 
                 new Article(Category.RETRO, "Gépvásárlás - térben és időben", "Kapitány", "retro/kapitany_gepvasarlas.html"),
                 new Article(Category.RETRO, "A szentesi lemezújságokról", "Kapitány", "retro/kapitany_szentesi_lemezujsagok.html"),
-                new Article(Category.RETRO, "Matt Barton: Dungeons and Desktops", "Kapitány", "retro/kapitany_dungeons_and_desktops.html")
+                new Article(Category.RETRO, "Könyvajánló: Matt Barton: Dungeons and Desktops", "Kapitány", "retro/kapitany_dungeons_and_desktops.html"),
+                new Article(Category.RETRO, "Könyvajánló: The History of Ocean Software", "Kapitány", "retro/kapitany_ocean.html")
         );
     }
 
