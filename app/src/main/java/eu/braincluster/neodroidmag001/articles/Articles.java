@@ -46,6 +46,7 @@ public final class Articles
 
                 new Article(Category.WORLD, "UFO?!", "Homoergaster", "world/homoergaster_ufo.html"),
 
+                new Article(Category.RETRO, "A BASIC nyelvről", "Kapitány", "retro/kapitany_basic.html"),
                 new Article(Category.RETRO, "Gépvásárlás - térben és időben", "Kapitány", "retro/kapitany_gepvasarlas.html"),
                 new Article(Category.RETRO, "A szentesi lemezújságokról", "Kapitány", "retro/kapitany_szentesi_lemezujsagok.html"),
                 new Article(Category.RETRO, "Könyvajánló: Matt Barton: Dungeons and Desktops", "Kapitány", "retro/kapitany_dungeons_and_desktops.html"),
