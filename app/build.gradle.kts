@@ -4,14 +4,14 @@ plugins {
 
 android {
     namespace = "eu.braincluster.neodroidmag001"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "eu.braincluster.neodroidmag001"
         minSdk = 27
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
-        versionName = "V1.14 2025.01.15."
+        versionName = "V1.15 2025.02.03."
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }

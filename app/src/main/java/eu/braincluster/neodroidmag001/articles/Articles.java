@@ -43,12 +43,17 @@ public final class Articles
                 new Article(Category.POEM, "...fekete mágia (szellemidézés)", "Homoergaster", "poems/homoergaster_magia.html"),
 
                 new Article(Category.COMPUTING, "A mai modern világban", "Homoergaster", "computing/homoergaster_mai_modern_vilagban.html"),
+                new Article(Category.COMPUTING, "Murphy számítógépes törvényei 1.", "Kapitány", "computing/kapitany_murphy1.html"),
+                new Article(Category.COMPUTING, "Murphy számítógépes törvényei 2.", "Kapitány", "computing/kapitany_murphy2.html"),
 
                 new Article(Category.WORLD, "UFO?!", "Homoergaster", "world/homoergaster_ufo.html"),
+                new Article(Category.WORLD, "Zene, zene, zene...", "Kapitány", "world/kapitany_zene.html"),
 
                 new Article(Category.RETRO, "A BASIC nyelvről", "Kapitány", "retro/kapitany_basic.html"),
+                new Article(Category.RETRO, "A C elszáll..", "Kapitány", "retro/kapitany_c_elszall.html"),
                 new Article(Category.RETRO, "Gépvásárlás - térben és időben", "Kapitány", "retro/kapitany_gepvasarlas.html"),
                 new Article(Category.RETRO, "A szentesi lemezújságokról", "Kapitány", "retro/kapitany_szentesi_lemezujsagok.html"),
+                new Article(Category.RETRO, "The Dungeons of Moria", "Kapitány", "retro/kapitany_moria.html"),
                 new Article(Category.RETRO, "Könyvajánló: Matt Barton: Dungeons and Desktops", "Kapitány", "retro/kapitany_dungeons_and_desktops.html"),
                 new Article(Category.RETRO, "Könyvajánló: The History of Ocean Software", "Kapitány", "retro/kapitany_ocean.html")
         );
