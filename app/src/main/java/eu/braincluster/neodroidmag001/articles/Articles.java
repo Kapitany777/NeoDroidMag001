@@ -41,6 +41,8 @@ public final class Articles
 
                 new Article(Category.POEM, "Locsolóvers", "Homoergaster", "poems/homoergaster_locsolovers.html"),
                 new Article(Category.POEM, "...fekete mágia (szellemidézés)", "Homoergaster", "poems/homoergaster_magia.html"),
+                new Article(Category.POEM, "A hegyek, akik nem létező istenek", "Homoergaster", "poems/homoergaster_hegyek.html"),
+                new Article(Category.POEM, "Pegazus", "Homoergaster", "poems/homoergaster_pegazus.html"),
 
                 new Article(Category.COMPUTING, "A mai modern világban", "Homoergaster", "computing/homoergaster_mai_modern_vilagban.html"),
                 new Article(Category.COMPUTING, "Murphy számítógépes törvényei 1.", "Kapitány", "computing/kapitany_murphy1.html"),
