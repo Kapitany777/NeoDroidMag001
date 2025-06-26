@@ -52,6 +52,7 @@ public final class Articles
                 new Article(Category.WORLD, "UFO?!", "Homoergaster", "world/homoergaster_ufo.html"),
                 new Article(Category.WORLD, "Zene, zene, zene...", "Kapitány", "world/kapitany_zene.html"),
                 new Article(Category.WORLD, "XII.Károly svéd király", "Kapitány", "world/kapitany_kiraly.html"),
+                new Article(Category.WORLD, "PET palackok", "Kapitány", "world/kapitany_pet_palack.html"),
 
                 new Article(Category.RETRO, "A BASIC nyelvről", "Kapitány", "retro/kapitany_basic.html"),
                 new Article(Category.RETRO, "A C elszáll..", "Kapitány", "retro/kapitany_c_elszall.html"),
