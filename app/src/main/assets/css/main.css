@@ -4,11 +4,17 @@
     src: url("../font/audiowide_regular.ttf");
 }
 
+@font-face
+{
+    font-family: funnelsans;
+    src: url("../font/funnelsans_regular.ttf");
+}
+
 body
 {
     background-color: #f0f8ff;
-    font-family: audiowide;
-    font-size: 12pt;
+    font-family: funnelsans;
+    font-size: 14pt;
 }
 
 h1
