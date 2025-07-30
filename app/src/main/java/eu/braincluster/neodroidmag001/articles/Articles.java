@@ -47,6 +47,7 @@ public final class Articles
                 new Article(Category.COMPUTING, "A mai modern világban", "Homoergaster", "computing/homoergaster_mai_modern_vilagban.html"),
                 new Article(Category.COMPUTING, "Murphy számítógépes törvényei 1.", "Kapitány", "computing/kapitany_murphy1.html"),
                 new Article(Category.COMPUTING, "Murphy számítógépes törvényei 2.", "Kapitány", "computing/kapitany_murphy2.html"),
+                new Article(Category.COMPUTING, "A polgármester-teszt", "Kapitány", "computing/kapitany_polgi.html"),
                 new Article(Category.COMPUTING, "Kell-e félnünk az MI-től?", "Jimmy Cartwright", "computing/jimmy_mi.html"),
 
                 new Article(Category.WORLD, "UFO?!", "Homoergaster", "world/homoergaster_ufo.html"),
